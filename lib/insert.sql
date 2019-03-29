@@ -11,17 +11,17 @@ INSERT INTO books (title, year, series_id) VALUES ("The Fellowship of the Ring",
 INSERT INTO books (title, year, series_id) VALUES ("The Two Towers", 1954, 2);
 INSERT INTO books (title, year, series_id) VALUES ("The Return of the King", 1954, 2);
 INSERT INTO books (title, year, series_id) VALUES ("A Game of Thrones ", 1996, 1);
-INSERT INTO books (title, year, series_id) VALUES ("The Chamber of Secrets", 1999, 2);
-INSERT INTO books (title, year, series_id) VALUES ("The Goblet of Fire", 2000, 2);
+INSERT INTO books (title, year, series_id) VALUES ("Clash of Kings", 1999, 2);
+INSERT INTO books (title, year, series_id) VALUES ("Storm of Swords", 2000, 2);
 
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Harry Potter", "The Boy Who Lived", "Wizard", 2, 2);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Hagrid", "The Gentle Giant", "Giant", 2, 2);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Fluffy", "A bit of music puts em right to sleep", "Three-Headed Dog", 2, 2);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Gilderoy Lockhart", "Me!", "Wizard", 2, 2);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Frodo Baggins", "The Bravest Hobbit", "Hobbit", 1, 1);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Saruman", "The White Wizard", "Wizard", 1, 1);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Lurtz", "An Army Worthy of Mordor", "Uruk-hai", 1, 1);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Shelob", "She likes to feed", "Giant Spider", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Frodo", "The Hobbit", "Hobbit", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Gandalf", "You cont pass bro", "Majestic Wizard", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Aragorn", "The Human", "Human", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Sauron", "Grr", "Quintessential Fantasy Dark Lord Trope", 2, 2);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Jon SNow", "The Bastard", "Targaryen", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("The Mountain", "Smash", "CUrrently Unknown", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Knight King", "....", "Cool guy", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Tyrion", "Drinks and knows stuff", "Lannister ", 1, 1);
 
 INSERT INTO character_books (character_id, book_id) VALUES (1, 4);
 INSERT INTO character_books (character_id, book_id) VALUES (1, 5);
