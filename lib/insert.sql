@@ -10,8 +10,8 @@ INSERT INTO authors (name) VALUES ("J.R.R. Tolkien");
 INSERT INTO books (title, year, series_id) VALUES ("The Fellowship of the Ring", 1954, 2);
 INSERT INTO books (title, year, series_id) VALUES ("The Two Towers", 1954, 2);
 INSERT INTO books (title, year, series_id) VALUES ("The Return of the King", 1954, 2);
-INSERT INTO books (title, year, series_id) VALUES ("A Game of Thrones ", 1997, 1);
-INSERT INTO books (title, year, series_id) VALUES ("The Chamber of Secrets", 1998, 2);
+INSERT INTO books (title, year, series_id) VALUES ("A Game of Thrones ", 1996, 1);
+INSERT INTO books (title, year, series_id) VALUES ("The Chamber of Secrets", 1999, 2);
 INSERT INTO books (title, year, series_id) VALUES ("The Goblet of Fire", 2000, 2);
 
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Harry Potter", "The Boy Who Lived", "Wizard", 2, 2);
