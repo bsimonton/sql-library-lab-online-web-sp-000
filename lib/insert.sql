@@ -21,7 +21,7 @@ INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Sau
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Jon SNow", "The Bastard", "Targaryen", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("The Mountain", "Smash", "CUrrently Unknown", 1, 1);
 INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Knight King", "....", "Cool guy", 1, 1);
-INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Tyrion", "Drinks and knows stuff", "Lannister ", 1, 1);
+INSERT INTO characters (name, motto, species, author_id, series_id) VALUES ("Tyrion", "Drinks and knows stuff", "Lannister", 1, 1);
 
 INSERT INTO character_books (character_id, book_id) VALUES (1, 4);
 INSERT INTO character_books (character_id, book_id) VALUES (1, 5);
